@@ -63,6 +63,5 @@ function (Controller, Fragment, JSONModel, MessageToast) {
 
             this.getView().byId("dialogRegister").close();
         }
-
     });
 });
