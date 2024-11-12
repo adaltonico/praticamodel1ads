@@ -18,8 +18,8 @@
 				<columns>
 					<Column width="20em"><Text text="Nome" /></Column>
 					<Column width="20em"><Text text="Idade" /></Column>
-					<Column hAlign="End"><Text text="Sexo" /></Column>
-					<Column hAlign="End"><Text text="Altura" /></Column>
+					<Column width="20em"><Text text="Sexo" /></Column>
+					<Column width="20em"><Text text="Altura" /></Column>
 				</columns>
 				<items>
 					<ColumnListItem>
