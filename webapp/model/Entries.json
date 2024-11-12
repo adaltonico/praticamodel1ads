@@ -1,0 +1,25 @@
+{
+	"data": [
+		{
+			"NomeID": 1,
+			"nome": "Vai Corinthians",
+			"dtNasc": "01/11/1993",
+			"sexo": "M",
+			"altura": 1.83
+		},
+		{
+			"NomeID": 2,
+			"nome": "Karina",
+			"dtNasc": "01/03/2002",
+			"sexo": "F",
+			"altura": 1.55
+		},
+		{
+			"NomeID": 3,
+			"nome": "Kylie",
+			"dtNasc": "28/05/1968",
+			"sexo": "F",
+			"altura": 1.50
+		}
+	]
+}

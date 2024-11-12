@@ -1,0 +1,41 @@
+<c:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:c="sap.ui.core"
+    xmlns:form="sap.ui.layout.form"
+>
+
+    <Dialog id="dialogRegister">
+        <form:SimpleForm editable="true" layout="ResponsiveGridLayout">
+            <form:content>
+                <c:Title text="{i18n>lbNewRegister}" />
+                
+                <Label text="{i18n>lbName}" />
+                <TextArea value="" width="100%" id="newName" />
+
+                <Label text="{i18n>lbDateBirth}" />
+                <DatePicker id="newDataNasc"/>
+
+                <Label text="{i18n>lbSex}" /> 
+                <SegmentedButton id="newSexo" selectedItem="F">
+                    <Button id="M" text="Masculino"/>
+                    <Button id="F" text="Feminino" />
+                    <Button id="O" text="Outro" />
+                </SegmentedButton>
+
+                <Label text="{i18n>lbHeight}" />
+                <TextArea value="" width="100%" id="newAltura"/>
+
+            </form:content>
+        </form:SimpleForm>
+
+        <beginButton>
+            <Button text="{i18n>lbButtonSave}" icon="sap-icon://save" type="Success" press="onSaveRegister"/>
+        </beginButton>
+
+        <endButton>
+            <Button text="{i18n>lbButtonCancel}" icon="sap-icon://decline" type="Reject"  press="onClosePopup"/>
+        </endButton>
+    </Dialog>
+
+
+</c:FragmentDefinition>
